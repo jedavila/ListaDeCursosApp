@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    app:cardBackgroundColor="@color/verde"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+        android:background="@drawable/cardborder"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="90dp"
+            android:padding="6dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="90dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/txtNRC"
+                    android:layout_width="69dp"
+                    android:layout_height="match_parent"
+                    android:text="216-088"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/black"
+                    />
+
+                <LinearLayout
+                    android:layout_width="207dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="5dp">
+
+                    <TextView
+                        android:id="@+id/txtTituloCurso"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NEW STUDENT ORIENTATION"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/txtDescripcion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="REQUIRED OF ALL NEW STUDENTS. "
+                        android:textSize="12sp"
+                        android:paddingTop="5dp"
+                        android:textColor="@color/grey"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/black"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="5dp"
+                    android:gravity="center"
+                    >
+
+                    <TextView
+                        android:id="@+id/txtCredits"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cr: 0. "
+                        android:textColor="@color/black"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtLevel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Level: U"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

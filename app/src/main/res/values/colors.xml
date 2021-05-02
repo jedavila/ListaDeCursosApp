@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="crema">#F4F1DE</color>
+    <color name="tomate">#E07A5F</color>
+    <color name="morado">#3D405B</color>
+    <color name="verde">#81B29A</color>
+    <color name="amarillo">#F2CC8F</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#FF605E5E</color>
+
+</resources>
